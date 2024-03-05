@@ -1,0 +1,16 @@
+img{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+}
+
+.galeria{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    
+}
