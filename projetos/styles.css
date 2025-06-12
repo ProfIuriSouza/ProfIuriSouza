@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: 'Inter',sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Cabeçalho fixo */
+header {
+    background-color: #008400;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header p {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Layout dos cards */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+/* Estilo individual dos cards */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 400px;
+    
+    margin-top: 40px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card-content {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.card-content h2 {
+    font-size: 24px;
+    margin: 10px auto; 
+    text-align: center;
+    
+}
+
+.card-content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+    text-align: justify;
+    padding-inline: 10px;
+}
+
+/* Efeito de hover */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #008400;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
