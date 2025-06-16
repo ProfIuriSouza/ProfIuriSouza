@@ -14,7 +14,7 @@ body {
 
 /* Cabeçalho fixo */
 header {
-    background-color: #008400;
+    background: linear-gradient(90deg, #008400 0%, #00b000 50%, #008400 100%);
     color: white;
     padding: 20px;
     text-align: center;
@@ -84,7 +84,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #008400;
+    background: linear-gradient(90deg, #008400 0%, #00b000 50%, #008400 100%);
     color: #f8f9fa;
     text-align: center;
     padding: 40px;
